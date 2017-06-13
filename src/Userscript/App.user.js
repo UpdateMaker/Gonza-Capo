@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name        Gonza Capo
 // @include     *//www.google.com.*
-// @version     1.2
+// @version     1.3
 // @grant       GM_xmlhttpRequest
 // ==/UserScript==
 
