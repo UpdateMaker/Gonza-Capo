@@ -18,7 +18,6 @@ input.type="button";
          input.onclick = showAlert;
 
 input.setAttribute("style", "font-size:16px;position:absolute;top:20px;right:320px;");
-       input.setAttribute("onmouseover", "font-size:20px;position:absolute;top:20px;right:320px;");
 document.body.appendChild(input); 
  
 function showAlert()
