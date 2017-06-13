@@ -3,6 +3,7 @@
 // @include     *//www.google.com.*
 // @version     1.3
 // @grant       GM_xmlhttpRequest
+// @downloadURL     https://github.com/UpdateMaker/Educamos-Edit/blob/master/App.js
 // ==/UserScript==
 
 
