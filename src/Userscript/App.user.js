@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name        Gonza Capo
 // @include     *//www.google.com.*
-// @version     1.1
+// @version     1.2
 // @grant       GM_xmlhttpRequest
 // ==/UserScript==
 
@@ -17,7 +17,8 @@ input.type="button";
          input.value = "Tu ISP es " + data['isp'];
          input.onclick = showAlert;
 
-input.setAttribute("style", "font-size:22px;position:absolute;top:20px;right:320px;");
+input.setAttribute("style", "font-size:16px;position:absolute;top:20px;right:320px;");
+       input.setAttribute("onmouseover", "font-size:20px;position:absolute;top:20px;right:320px;");
 document.body.appendChild(input); 
  
 function showAlert()
