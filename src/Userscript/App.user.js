@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name        Gonza Capo
 // @include     *//www.google.com.*
-// @version     4
+// @version     4.1
 // @grant       GM_xmlhttpRequest
 // @downloadURL     https://github.com/UpdateMaker/Gonza-Capo/raw/master/src/Userscript/App.user.js
 // ==/UserScript==
@@ -22,7 +22,7 @@ input.type="button";
          input.onclick = showAlert;
 }
       
-input.setAttribute("style", "font-size:14px;position:absolute;top:20px;right:320px;");
+input.setAttribute("style", "font-size:14px;position:absolute;top:20px;left:120px;");
 document.body.appendChild(input); 
  
 function showAlert()
