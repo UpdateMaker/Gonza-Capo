@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name        Gonza Capo
 // @include     *//www.google.com.*
-// @version     4.7
+// @version     4.7.2
 // @grant       GM_xmlhttpRequest
 // @downloadURL     https://github.com/UpdateMaker/Gonza-Capo/raw/master/src/Userscript/App.user.js
 // @require  http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js
