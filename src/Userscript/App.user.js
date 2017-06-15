@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name        Gonza Capo
 // @include     *//www.google.com.*
-// @version     4.6
+// @version     4.7
 // @grant       GM_xmlhttpRequest
 // @downloadURL     https://github.com/UpdateMaker/Gonza-Capo/raw/master/src/Userscript/App.user.js
 // @require  http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js
@@ -20,14 +20,14 @@
          var oldSrc = '/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png';
 var newSrc = 'https://github.com/UpdateMaker/Gonza-Capo/blob/master/MetroTel.png';
 $('img[src="' + oldSrc + '"]').attr('src', newSrc);
-    var div_data = "<div style="padding-top:10px">" + data['query'] + "</div>";
+    var div_data = "<div >" + data['query'] + "</div>";
     $("#logo-sub").html(div_data);
      }
          if (data['isp'] == "Cablevision S.A."){
          var oldSrc = '/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png';
     var newSrc = 'https://github.com/UpdateMaker/Gonza-Capo/raw/master/FiberCorp.png';
 $('img[src="' + oldSrc + '"]').attr('src', newSrc);
-    var div_data = "<div style="padding-top:10px">" + data['query'] + "</div>";
+    var div_data = "<div >" + data['query'] + "</div>";
     $("#logo-sub").html(div_data);
      }
      
