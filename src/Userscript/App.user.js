@@ -18,7 +18,7 @@
       var data = eval("(" + xhr.responseText + ")");
      if (data['isp'] == "CPS"){
          var oldSrc = '/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png';
-var newSrc = 'https://github.com/UpdateMaker/Gonza-Capo/blob/master/MetroTel.png';
+var newSrc = 'https://github.com/UpdateMaker/Gonza-Capo/raw/master/MetroTel.png';
 $('img[src="' + oldSrc + '"]').attr('src', newSrc);
     var div_data = "<div >" + data['query'] + "</div>";
     $("#logo-sub").html(div_data);
